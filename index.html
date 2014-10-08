@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru" >
+    <head>
+        <meta charset="utf-8" />
+        <title>Lab1#12</title>
+        <link href="css/main.css" rel="stylesheet" type="text/css" />
+
+    </head>
+    <body>
+        <header>
+            <h2>Канвáсушка - мощнейший графический редактор на canvas</h2>
+        </header>
+        <div class="container">
+            <div class="column1">
+                <canvas id="color" width="500" height="100">
+                    Ваш браузер не поддерживает Canvas!
+                </canvas>
+            </div>
+            <div class="column2">
+                <div>Текущий цвет кисти:</div>
+                <div id="pick"></div>
+            </div>
+            <div style="clear:both;"></div>
+        </div>
+        <canvas id="panel" width="1000" height="600"></canvas>
+
+        <script src='http://yandex.st/jquery/2.0.3/jquery.min.js'></script>
+        <!--<script src="js/script.js"></script>-->
+        <script src="js/canvas.js"></script>
+    </body>
+</html>
